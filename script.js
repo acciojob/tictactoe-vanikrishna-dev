@@ -17,8 +17,8 @@ const winningConditions = [
 ];
 
 submitBtn.addEventListener('click', () => {
-    p1Name = document.getElementById('player-1').value || "Player1";
-    p2Name = document.getElementById('player-2').value || "Player2";
+    p1Name = document.getElementById('player1').value || "Player1";
+	p2Name = document.getElementById('player2').value || "Player2";
 
     currentPlayer = p1Name;
 
